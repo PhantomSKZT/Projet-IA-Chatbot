@@ -1,0 +1,10 @@
+sentence-transformers
+transformers
+scikit-learn
+pymupdf
+torch
+torchvision
+openai
+requests
+beautifulsoup4
+duckduckgo-search
