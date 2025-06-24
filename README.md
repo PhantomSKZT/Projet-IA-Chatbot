@@ -15,13 +15,14 @@ Ce projet est un orchestrateur d'agents d'intelligence artificielle (IA) écrit 
 
 ## 🛠️ Prérequis
 
-- Suivre les cours de Monsieur Yim (bah oui je vais pas te faire un tuto complet...)
 - Installer `llama.cpp` (https://github.com/ggml-org/llama.cpp) 
   - Note : la version utilisé ici est CUDA sur Windows
+  - Placer le dossier à la racine du projet
+  - Modifier le chemin correspondant dans les scripts `lancement_llama-server.bat` (V1 et V2)
 - Installer `python3` (voir Microsoft Store ou https://www.python.org/downloads/)
 - Installer les dépendances python : `pip install -r requirements.txt`
 - Sélectionner le modèle que vous voulez utiliser (https://huggingface.co/lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-GGUF/tree/main)
-  - Note : pour les bourges, utilisez ce modèle : https://huggingface.co/Qwen/Qwen3-30B-A3B-GGUF/tree/main
+  - Note : pour les pc plus puissant, vous pouvez utilisez ce modèle : https://huggingface.co/Qwen/Qwen3-30B-A3B-GGUF/tree/main
 - Ajouter les modèles dans le dossier `models`
 - Si vous utiliser l'exécutable `lancement_llama-serveurV2`, veiller à bien modifier la ligne `set "model_choice=Qwen3-30B-A3B-Q4_K_M.gguf"` par : `set "model_choice=[NOM_DU_MODELE].gguf"`
 
@@ -123,4 +124,4 @@ Taper `help` pour obtenir de l'aide.
 
 MIT — Utilisation libre et gratuite
 
-Créé par Léo Vandenberghe, Cyril D'houdetot, Alexis Druon
+Créé par [Léo Vandenberghe](https://github.com/PhantomSKZT), [Cyril D'houdetot](https://github.com/DHoudetot-Cyril), [Alexis Druon](https://github.com/MarioSwitch)
